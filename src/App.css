@@ -1,0 +1,58 @@
+body {
+  margin: 20px auto;
+  font-family: 'Lato';
+  /* background:#666;
+  color:#fff; */
+
+
+  background-image: url('https://media.istockphoto.com/id/1340249996/vector/seamless-realistic-cork-background-tileable-pattern-vector-illustration.jpg?s=612x612&w=0&k=20&c=sHH6IPps6n-fybTtzNStd1euay0wo7OkrW4OF3w7WeM=');
+  /* Ensure the background covers the entire viewport */
+  background-size:auto;
+  /* Center the background image */
+  background-position: center;
+  /* Set a fixed background attachment */
+  background-attachment: fixed;
+  /* Add any additional styling you want */
+  /* For example, you can set a background color as a fallback */
+  background-color: #f8f8f8;
+  /* Ensure content is above the background */
+  /* This is important if you have content within the app */
+  z-index: 1;
+  /* Ensure the background spans the entire viewport */
+  /* This is important if you want the background to cover the entire viewport */
+  height: 100vh;
+}
+*{
+  margin:0;
+  padding:0;
+}
+h2 {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+}
+textarea {
+  font-size: 1rem;
+  font-weight: normal;
+}
+ul,li{
+  list-style:none;
+}
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+ul li a{
+  text-decoration:none;
+  color:#000;
+  background:#ffc;
+  display:block;
+  height:10em;
+  width:10em;
+  padding:1em;
+}
+ul li{
+  margin:1em;
+}
